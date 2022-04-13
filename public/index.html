@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/custom/url/css/style.css">
+    </head>
+    <body>
+<!--
+        <h1 id="azul">Hola coders</h1>
+        <h2 >Esto es un subtitulo</h2>
+        <h3>Esto es un subtitulo</h3>
+        
+
+        <img src="/custom/url/images/foto.jpg" alt="Imagen de gato" width="600">
+
+        <button id="boton">boton</button>
+
+
+        <h3>Formulario 1</h3>
+        <form action="/uploadfile" enctype="multipart/form-data" method="post">
+            <input type="file" name="myFile">
+            <input type="submit" value="Upload a file">
+        </form>
+
+        <h3>Formulario 2</h3>
+    
+        <form action="/uploadmultiple" enctype="multipart/form-data" method="post">
+            Select images <input type="file" name="myFiles" multiple/>
+            <input type="submit" value="Upload your files">
+        </form>
+-->
+
+        <h3>Formulario productos</h3>
+        <form action="/uploadfile" enctype="multipart/form-data" method="post">
+        <!--<form action="/api/productos" enctype="multipart/form-data" method="post">-->
+            <label for="name">Nombre</label>
+            <input type="text" name="name">
+            <br>
+            <label for="price">Precio</label>
+            <input type="number" name="price">
+            <br>
+            <label for="thumbnail">Imagen</label>
+            <input type="file" name="thumbnail" multiple>
+            <br>
+            <input type="submit" value="Submit a product">
+        </form>
+
+
+        <script src="/custom/url/js/index.js"></script>
+    </body>
+</html>
